@@ -1,4 +1,0 @@
-RewriteEngine on
-RewriteCond %{HTTP_HOST} ^saradas-remedies.com$ [OR]
-RewriteCond %{HTTP_HOST} ^www.saradas-remedies.com$
-RewriteRule ^/?$ "http\:\/\/www\.saradasremedies\.com" [R=301,L]
